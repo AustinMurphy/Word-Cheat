@@ -1,0 +1,26 @@
+word-cheat.pl
+
+    Find the "best" anagrams for a given list of letters
+
+    Possibly useful for cheating at or learning Scrabble or other games
+
+
+The code expects the reference dictionary to be formatted:
+  - in all UPPERCASE
+  - with unix-style line terminators
+
+The input can be in UPPER, lower, or MiXeD case.
+
+ENABLE, the "Enhanced North American Benchmark Lexicon", is a public domain 
+word list.  A compatibly formatted copy is included. 
+
+
+
+My primary goal was to do this correctly using recursion.  
+I think that was successful, but it resulted in being very slow for longer 
+inputs.  11 characters can easily take 30 sec or more.
+
+
+
+
+
